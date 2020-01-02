@@ -9,7 +9,7 @@ executor = Executor(app)
 def hello():
     return "Working Fine !"
 
-@app.route("/longjobs")
+@app.route("/crown")
 def index():
     executor.submit(long_running_job)
     return "Procesed a Job !"
